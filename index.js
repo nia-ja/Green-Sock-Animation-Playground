@@ -4,7 +4,7 @@ window.onload = function(){
         y:200,
         rotation:360,
         scale:0.5,
-        ease:Back.easeOut,
+        ease:Expo.easeOut,
         backgroundColor:"rgba(83, 180, 232, 0.5)",
         borderRadius:"50%",
         border:"5px solid lightgrey"
@@ -14,7 +14,7 @@ window.onload = function(){
         y:-178.5,
         rotation:360,
         scale:0.5,
-        ease:Back.easeOut,
+        ease:Elastic.easeOut,
         backgroundColor:"rgba(232, 82, 82, 0.4)",
         borderRadius:"50%",
         border:"5px solid lightgrey"
@@ -23,7 +23,7 @@ window.onload = function(){
         x:600,
         rotation:720,
         scale:0.3,
-        ease:Back.easeOut,
+        ease:Circ.easeOut,
         backgroundColor:"rgb(239, 225, 67, 0.9)",
         borderRadius:"50%",
         border:"5px solid lightgrey"
@@ -42,7 +42,7 @@ window.onload = function(){
         y:100,
         rotation:360,
         scale:0.8,
-        ease:Back.easeOut,
+        ease:SlowMo.easeOut,
         backgroundColor:"rgba(82, 159, 232, 0.5)",
         borderRadius:"50%",
         border:"5px solid lightgrey"
@@ -82,7 +82,7 @@ window.onload = function(){
         y:-150,
         rotation:360,
         scale:0.9,
-        ease:Back.easeOut,
+        ease:Bounce.easeOut,
         backgroundColor:"rgba(196, 56, 56, 0.95)",
         borderRadius:"50%",
         border:"5px solid lightgrey"

@@ -50,9 +50,9 @@ window.onload = function(){
     TweenLite.to("#logo6", 10, {
         x:-100,
         y:-100,
-        rotation:360,
+        rotation:720,
         scale:0.3,
-        ease:Back.easeOut,
+        ease: RoughEase.ease.config({ template: Power0.easeNone, strength: 1, points: 20, taper: "none", randomize: true, clamp: false}),
         backgroundColor:"rgba(179, 82, 232, 0.5)",
         borderRadius:"50%",
         border:"5px solid lightgrey"
@@ -72,7 +72,7 @@ window.onload = function(){
         y:300,
         rotation:360,
         scale:0.7,
-        ease:Back.easeOut,
+        ease: RoughEase.ease.config({ template: Power0.easeNone, strength: 1, points: 20, taper: "none", randomize: false, clamp: false}),
         backgroundColor:"rgba(7, 193, 144, 0.9)",
         borderRadius:"50%",
         border:"5px solid lightgrey"
